@@ -263,7 +263,10 @@ npm run dev
 
 ### 5. Try It
 
-Open `http://localhost:3000` and submit a decision:
+Open the live web application at:
+👉 **[frontend-teal-theta-10.vercel.app](https://frontend-teal-theta-10.vercel.app)**
+
+Or open it locally on `http://localhost:3000` and submit a decision:
 
 > *"I got offered $95K base with 0.4% equity, 4-year vest, one-year cliff at a Series B startup. I currently make $82K at a stable company. Should I take it?"*
 

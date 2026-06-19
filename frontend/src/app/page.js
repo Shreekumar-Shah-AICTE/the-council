@@ -42,7 +42,8 @@ export default function Home() {
     
     try {
       // Create decision on backend
-      const response = await fetch('http://localhost:8000/api/decisions', {
+      const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+      const response = await fetch(`${apiUrl}/api/decisions`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ input_text: text })
@@ -69,7 +70,8 @@ export default function Home() {
   };
 
   const connectWebSocket = (id) => {
-    const wsUrl = `ws://localhost:8000/ws/debate/${id}`;
+    const wsBaseUrl = process.env.NEXT_PUBLIC_WS_URL || 'ws://localhost:8000';
+    const wsUrl = `${wsBaseUrl}/ws/debate/${id}`;
     const ws = new WebSocket(wsUrl);
     socketRef.current = ws;
 
