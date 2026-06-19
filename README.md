@@ -264,7 +264,7 @@ npm run dev
 ### 5. Try It
 
 Open the live web application at:
-👉 **[frontend-teal-theta-10.vercel.app](https://frontend-teal-theta-10.vercel.app)**
+👉 **[the-council-of-agents.vercel.app](https://the-council-of-agents.vercel.app)**
 
 Or open it locally on `http://localhost:3000` and submit a decision:
 
