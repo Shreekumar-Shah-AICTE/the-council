@@ -1,0 +1,47 @@
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+agent_config.yaml
+backend/agent_config.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+.venv/
+env/
+
+# Node/Next.js
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+.next/
+
+# Database
+*.db
+backend/database/council.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Analysis Material (not part of the project)
+Analysis Material/
+
+# Agent system files
+.agent/
+.gemini/
