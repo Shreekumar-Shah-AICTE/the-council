@@ -23,10 +23,10 @@ def get_llm_client(provider: str) -> OpenAI:
 
 # Models configured for advisor personalities
 ADVISOR_MODELS = {
-    "skeptic":         {"provider": "featherless", "model": "Qwen/Qwen3.5"},
-    "strategist":      {"provider": "featherless", "model": "meta-llama/Llama-4-Maverick-17B-128E-Instruct"},
+    "skeptic":         {"provider": "featherless", "model": "Qwen/Qwen2.5-32B-Instruct"},
+    "strategist":      {"provider": "featherless", "model": "meta-llama/Meta-Llama-3.1-70B-Instruct"},
     "numbers":         {"provider": "featherless", "model": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B"},
-    "devils_advocate": {"provider": "featherless", "model": "meta-llama/Llama-4-Scout-17B-16E-Instruct"},
+    "devils_advocate": {"provider": "featherless", "model": "meta-llama/Meta-Llama-3.1-8B-Instruct"},
     "chair":           {"provider": "aimlapi",     "model": "gpt-4o-mini"},
 }
 
