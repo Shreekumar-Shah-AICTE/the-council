@@ -41,6 +41,8 @@ Thumbs.db
 
 # Analysis Material (not part of the project)
 Analysis Material/
+arsenal/
+knowledge/
 
 # Agent system files
 .agent/
