@@ -13,7 +13,11 @@
 
 <br/>
 
-[🎬 Watch Demo](#demo) · [🚀 Quick Start](#quick-start) · [🏗️ Architecture](#architecture) · [🧠 How It Works](#how-it-works)
+⚡ **[🌐 Live Demo](https://the-council-of-agents.vercel.app)** ⚡
+
+<br/>
+
+[🚀 Quick Start](#quick-start) &nbsp;·&nbsp; [🏗️ Architecture](#architecture) &nbsp;·&nbsp; [🧠 How It Works](#how-it-works)
 
 </div>
 
@@ -103,6 +107,7 @@ A real-time convergence meter shows how much the advisors agree or disagree. Hig
 
 ---
 
+<a id="architecture"></a>
 ## 🏗️ Architecture
 
 ```
@@ -138,6 +143,7 @@ A real-time convergence meter shows how much the advisors agree or disagree. Hig
 
 ---
 
+<a id="how-it-works"></a>
 ## 🧠 How It Works
 
 ```
@@ -212,6 +218,7 @@ This project was architected around the hackathon's sponsor technologies — not
 
 ---
 
+<a id="quick-start"></a>
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -274,6 +281,7 @@ Watch five advisors fight about your future. Receive a verdict. Read the dissent
 
 ---
 
+<a id="demo"></a>
 ## 🎬 Demo
 
 ### Judge's Quick-Start Flow
